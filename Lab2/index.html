@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Omar Mohamed | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #eaf4ff;
+            color: #17365d;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #145da0;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: px;
+        }
+
+        h2, h3 {
+            color: #145da0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: white;
+            margin: 10px;
+        }
+
+        .section {
+            padding: 30px;
+        }
+
+        .project {
+            display: inline-block;
+            width: 220px;
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid #75b8ed;
+            border-radius: 10px;
+        }
+
+        #contact {
+            background-color: #cce5ff;
+        }
+
+        .footer {
+            background-color: #145da0;
+            color: white;
+            padding: 15px;
+        }
+        input, textarea {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #75b8ed;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #145da0;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Omar Mohamed</h1>
+        <p>Computer Engineering Student</p>
+
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Omar Mohamed, a computer engineering student.
+            My projects explore object-oriented programming,
+            embedded systems, and management systems.
+        </p>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>OOP Agile Coordinator</h3>
+            <p>
+                An agile coordination project using
+                object-oriented programming.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>AVR Embedded Systems Project</h3>
+            <p>
+                An embedded systems project using
+                AVR microcontrollers.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Library Management System</h3>
+            <p>
+                A software project for organizing
+                library information.
+            </p>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: subzeroomar1@gmail.com</p>
+
+    <form action="mailto:subzeroomar1@gmail.com"
+          method="post" enctype="text/plain">
+
+        <input type="text" name="name"
+               placeholder="Your Name" required>
+
+        <input type="email" name="email"
+               placeholder="Your Email" required>
+
+        <textarea name="message" rows="5"
+                  placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+    <div class="footer">
+        <p>2026 Omar Mohamed. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
